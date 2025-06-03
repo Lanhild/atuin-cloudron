@@ -1,0 +1,28 @@
+{
+  "id": "sh.atuin.cloudronapp",
+  "title": "Atuin",
+  "author": "Atuin",
+  "description": "file://DESCRIPTION.md",
+  "tagline": "Making your shel magical",
+  "version": "1.0.0",
+  "upstreamVersion": "18.6.1",
+  "healthCheckPath": "/",
+  "httpPort": 3000,
+  "addons": {
+    "localstorage": {},
+    "postgresql": {}
+  },
+  "manifestVersion": 2,
+  "website": "https://atuin.sh",
+  "contactEmail": "support@cloudron.io",
+  "icon": "file://logo.png",
+  "memoryLimit": 1073741824,
+  "tags": [
+    "shell",
+    "sysadmin",
+    "homelab"
+  ],
+  "documentationUrl": "https://docs.cloudron.io/apps/atuin",
+  "minBoxVersion": "8.2.0",
+  "forumUrl": "https://forum.cloudron.io/category/111/atuin"
+}
