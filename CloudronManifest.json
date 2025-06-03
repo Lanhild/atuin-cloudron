@@ -4,7 +4,7 @@
   "author": "Atuin",
   "description": "file://DESCRIPTION.md",
   "tagline": "Making your shel magical",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "upstreamVersion": "18.6.1",
   "healthCheckPath": "/",
   "httpPort": 3000,

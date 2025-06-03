@@ -21,4 +21,4 @@ echo "==> Changing ownership"
 chown -R cloudron:cloudron /app/data
 
 echo "==> Starting Atuin server"
-exec gosu cloudron:cloudron atuin server start
+exec gosu cloudron:cloudron /app/code/atuin server start
